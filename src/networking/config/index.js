@@ -1,5 +1,5 @@
 const Config = {
-    API_URL : "http://localhost:5000"
+    API_URL : "https://test-backend-project.herokuapp.com"
 };
 
 export default Config;
