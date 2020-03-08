@@ -13,6 +13,7 @@ export default class CountriesAPI {
     /* Method to get unique country by name via the created NodeJS API */
     static getUniqueCountry = async (name) => {
         const url = `${Config.API_URL}/countries/name/${name}`;
+        console.log("Unique Country Request =>", url);
         const response = await fetch(url);
         return response.json();
     }
